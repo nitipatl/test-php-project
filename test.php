@@ -1,6 +1,7 @@
 <?php
+use PHPUnit\Framework\TestCase;
 
-class StupidTest extends \PHPUnit_Framework_TestCase
+class StupidTest extends TestCase
 {
    public function testTrueIsTrue()
     {
