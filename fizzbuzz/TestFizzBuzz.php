@@ -1,6 +1,10 @@
 <?php
 include ("FizzBuzz.php");
 class TestFizzBuzz extends PHPUnit_Framework_TestCase {
+	
+	/**
+	 * @covers Input 1 Return 1
+	 */
 	function testInput1Return1() {
 		$expected = "1";
 		$input = "1";
@@ -9,6 +13,10 @@ class TestFizzBuzz extends PHPUnit_Framework_TestCase {
 		
 		$this->assertEquals($expected, $actual);
 	}
+	
+	/**
+	 * @covers Input 2 Return 2
+	 */
 	function testInput2Return2() {
 		$expected = "2";
 		$input = "2";
@@ -18,6 +26,9 @@ class TestFizzBuzz extends PHPUnit_Framework_TestCase {
 		$this->assertEquals($expected, $actual);
 	}
 	
+	/**
+	 * @covers Input 3 Return Fizz
+	 */
 	function testInput3ReturnFizz() {
 		$expected = "FIZZ";
 		$input = "3";
