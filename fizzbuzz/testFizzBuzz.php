@@ -40,7 +40,7 @@ class testFizzBuzz extends TestCase{
 		$this->assertEquals($expected, $actual);
 	}
 	function testInput15ReturnFizzBuzz() {
-		$expected = "FIZZBUZZ";
+		$expected = "FIZZBUZZ0";
 		$input = "15";
 		
 		$actual = GetNumber($input);
