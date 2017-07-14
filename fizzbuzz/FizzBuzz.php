@@ -14,3 +14,5 @@ function GetNumber($n) {
 	
 	return $n;
 }
+
+echo GetNumber(15);
