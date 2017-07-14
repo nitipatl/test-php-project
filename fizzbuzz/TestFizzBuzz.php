@@ -1,5 +1,6 @@
 <?php
 include ("FizzBuzz.php");
+
 class TestFizzBuzz extends PHPUnit_Framework_TestCase {
 
 	function testInput1Return1() {
@@ -37,7 +38,7 @@ class TestFizzBuzz extends PHPUnit_Framework_TestCase {
 		$this->assertEquals($expected, $actual);
 	}
 	function testInput15ReturnFizzBuzz() {
-		$expected = "FIZZBUZZ";
+		$expected = "FIZZBUZZ0";
 		$input = "15";
 		
 		$actual = GetNumber($input);
