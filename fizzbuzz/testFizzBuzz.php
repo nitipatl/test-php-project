@@ -1,7 +1,7 @@
 <?php
 include ("FizzBuzz.php");
 
-class TestFizzBuzz extends PHPUnit_Framework_TestCase {
+class testFizzBuzz extends PHPUnit_Framework_TestCase {
 
 	function testInput1Return1() {
 		$expected = "1";
