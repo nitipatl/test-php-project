@@ -38,7 +38,7 @@ class testFizzBuzz extends PHPUnit_Framework_TestCase {
 		$this->assertEquals($expected, $actual);
 	}
 	function testInput15ReturnFizzBuzz() {
-		$expected = "FIZZBUZZ0000";
+		$expected = "FIZZBUZZ0";
 		$input = "15";
 		
 		$actual = GetNumber($input);
