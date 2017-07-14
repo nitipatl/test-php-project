@@ -2,9 +2,6 @@
 include ("FizzBuzz.php");
 class TestFizzBuzz extends PHPUnit_Framework_TestCase {
 	
-	/**
-	 * @covers Input 1 Return 1
-	 */
 	function testInput1Return1() {
 		$expected = "1";
 		$input = "1";
