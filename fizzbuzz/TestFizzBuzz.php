@@ -19,10 +19,7 @@ class TestFizzBuzz extends PHPUnit_Framework_TestCase {
 		
 		$this->assertEquals($expected, $actual);
 	}
-	
-	/**
-	 * @covers Input 3 Return Fizz
-	 */
+
 	function testInput3ReturnFizz() {
 		$expected = "FIZZ";
 		$input = "3";
