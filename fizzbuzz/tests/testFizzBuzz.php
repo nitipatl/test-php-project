@@ -1,10 +1,8 @@
 <?php
+include dirname(__FILE__).'/../src/FizzBuzz.php';
 use PHPUnit\Framework\TestCase;
 
-include ("FizzBuzz.php");
-
 class testFizzBuzz extends TestCase{
-
 	function testInput1Return1() {
 		$expected = "1";
 		$input = "1";
