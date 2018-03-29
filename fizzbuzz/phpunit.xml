@@ -1,1 +1,14 @@
-<directory suffix=".php">./src</directory>
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit>
+<filter>
+    <whitelist>
+        <directory>./src</directory>
+        <exclude>
+            <directory>./tests</directory>
+        </exclude>
+    </whitelist>
+</filter>
+<testsuite name='Tests'>
+    <directory suffix='.php'>./tests</directory>
+</testsuite>
+</phpunit>
